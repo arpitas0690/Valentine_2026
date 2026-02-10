@@ -1,0 +1,44 @@
+#container {
+    background-color: #1a02ae;
+    justify-content: center;
+}
+
+#button-no {
+    justify-content: center;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    gap: 10%;
+    width: 10vw;
+    height: 20vh;
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    font-size: 40px;
+    font-family: 'Montserrat', bold;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+#button-yes {
+    justify-content: center;
+    background-color: #ffc94a;
+    border-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    gap: 10%;
+    width: 10vw;
+    height: 20vh;
+    position: fixed;
+    bottom: 5vh;
+    right: 22vw;
+    font-size: 50px;
+    font-family: 'Montserrat', bold;
+    font-weight: 800;
+    color: #1a02ae;
+    cursor: pointer;
+}

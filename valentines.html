@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lights On/Off</title>
+        <meta charset="UTF-9"> <!--setting to unicode 8 -- this uses 1 to 4 bytes per character-->
+        <meta name="viewport" content= "width-device-width, initial-scale=1.0"> <!--this sets the width of the website-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--this makes the website work in the latest internet explorer version -->
+         <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    </head>
+    <body>
+        <container id="container">
+            <img id="bulb" src="bulb_off.png" width="100%">
+            <p>
+                <button id=button-yes type="button" onclick="light(1)">Yes 😍</button>
+                <button id=button-no type="button" onclick="light(0)">No 😭</button>
+            </p>
+        </container>
+
+        <!-- Audio element for light bulb sound effect -->
+        <audio id="lightSound" preload="auto">
+            <source src="light-switch.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- Audio element for light bulb sound effect -->
+        <audio id="backgroundMusic" preload="auto" loop>
+            <source src="background-music.mp3" type="audio/mpeg">
+        </audio>
+
+    <!-- LogicJS-->
+     <script type="text/javascript" src="static/logic.js"></script>
+    </body>
+</html> 
